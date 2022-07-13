@@ -1,0 +1,104 @@
+
+body{
+    background-color: black;
+    align-content: center;
+}
+@font-face {
+    font-family: [Dimitri];
+    src: url(DIMIS___.ttf) format ('TrueType');
+ }
+
+
+p{
+    font-family: 'Dimitri',Times ;
+    color: aliceblue;
+    font-size: 30px;
+
+
+}
+
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+   
+}
+a{
+    font-family: 'Dimitri',Times ;
+    color: #620CC3;
+    font-size: 30px; 
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.if {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
+}
+:root {
+    --cor-primaria-VoltarMenu: rgba(96,12,196,1);
+    --cor-hover-VoltarMenu: rgba(0,212,255,1);
+    --cor-secundaria-VoltarMenu:  rgba(96,12,196,1);
+
+}
+
+.VoltarMenu {
+    background-color: var(--cor-primaria-VoltarMenu);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1%;
+    height: 10%;
+    width: 19%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom:0% ;
+    margin-top: 2%;
+    font-family: 'Dimitri',Times ;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.VoltarMenu:hover {
+    background-color: var(--cor-hover-VoltarMenu);
+    font-family: 'Dimitri',Times ;
+    color: white;
+    font-size: 30px;
+}
+
+.VoltarMenu:active {
+    color:var(--cor-primaria-VoltarMenu);
+    background-color: var(--cor-secundaria-VoltarMenu);
+}
+.cruza {
+    width: 300px;
+    height: 120%;
+    margin: 50px;
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cruza img{
+    width: 400px;
+    height: 400px;
+}

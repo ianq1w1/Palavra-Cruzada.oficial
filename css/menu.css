@@ -1,0 +1,126 @@
+.logo {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+:root {
+    --cor-primaria-jogar: rgba(96, 12, 196, 1);
+    --cor-hover-jogar: rgba(0, 212, 255, 1);
+    --cor-secundaria-jogar: rgba(96, 12, 196, 1);
+
+}
+
+.jogar {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.jogar img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+.jogar button {
+    background-color: var(--cor-primaria-jogar);
+    outline: none;
+    color: var(--cor-secundaria-jogar);
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.jogar button:hover {
+    background-color: var(--cor-hover-jogar);
+}
+
+.jogar button:active {
+    color: var(--cor-primaria-jogar);
+    background-color: var(--cor-secundaria-jogar);
+}
+
+@font-face {
+    font-family: [Dimitri];
+    src: url(DIMIS___.ttf) format ('TrueType');
+}
+
+button {
+    font-family: 'Dimitri', Times;
+    color: white;
+    font-size: 30px;
+   
+}
+
+body {
+    background-color: black;
+}
+
+.gif {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif img {
+    height: 500px;
+    width: 500px;
+    padding-top: 50%;
+}
+.foguet {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foguet img {
+    height: 500px;
+    width: 500px;
+   margin-top: 100%;
+   padding-left: 0%
+   ;
+   padding-right: 10%;
+}
+
+.cruza {
+    width: 300px;
+    height: 120%;
+    margin: 50px;
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cruza img{
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
